@@ -21,6 +21,16 @@ Website should be compatible with most web browsers. Any browsers not supporting
 Author:
 - Jessica Hernandez Botero
 
+Sound Loops Courtesy Of:
+- AcousticNature.com
+- Mixkit.
+
+Background Music:
+Evening Improvisation (with Ethera) by Spheriá | https://soundcloud.com/spheriamusic
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+
 ## License
 
 MIT

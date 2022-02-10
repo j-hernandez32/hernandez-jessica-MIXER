@@ -1,0 +1,12 @@
+- track plan -
+
+01. campground.svg - no audio track, will already be on the scene. acts as "stage".
+02. sun.svg - backgroundTrack.mp3
+03. birds.svg - birdsLoop1.mp3
+04. bushes.svg - ambientLoop1.mp3
+05. fir.svg - ambientLoop2.mp3
+06. grass.svg - birdsLoop2.wav
+07. maple.svg - ambientLoop3.mp3
+08. river.svg - riverLoop.mp3
+09. rocks.svg - ambientLoop4.wav
+10. spruce.svg - ambientLoop5.wav

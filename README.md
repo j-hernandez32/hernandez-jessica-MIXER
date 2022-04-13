@@ -1,6 +1,6 @@
 # Interactive Music Mixer by Jessi Hernandez
 
-An interactive music mixer with a nature theme. Drag and drop functionality will allow the user to create a custom music track depending on the items dropped into the scene with triggered animations.
+An interactive music mixer with a nature theme. Javascript event handling will allow the user to create a custom nature ambient track depending on the items dropped into the scene with.
 
 This multimedia application was written using HTML5, CSS and Javascript.
 

@@ -147,4 +147,6 @@ sunBtn.addEventListener("click", function(){
   }
 });
 
+grassAudTrk.volume = 0.2;
+
 })();

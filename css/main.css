@@ -86,6 +86,7 @@ Classes Start
 
 .parentContainer {
   margin-bottom: 0;
+  height: auto;
 }
 
 .campPieces {

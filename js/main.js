@@ -1,38 +1,34 @@
 (() => {
-  // FIRST you collect your items in any given section
-  const birdElement = document.getElementById('birds');
-  const birdBtn = document.getElementById('birdToggle');
 
-  const bushesElement = document.getElementById('bushes');
-  const bushesBtn = document.getElementById('bushesToggle');
+  const birdElement = document.getElementById('birds'),
+        birdBtn = document.getElementById('birdToggle'),
+        bushesElement = document.getElementById('bushes'),
+        bushesBtn = document.getElementById('bushesToggle'),
+        firElement = document.getElementById('fir'),
+        firBtn = document.getElementById('firToggle'),
+        grassElement = document.getElementById('grass'),
+        grassBtn = document.getElementById('grassToggle'),
+        mapleElement = document.getElementById('maple'),
+        mapleBtn = document.getElementById('mapleToggle'),
+        riverElement = document.getElementById('river'),
+        riverBtn = document.getElementById('riverToggle'),
+        rocksElement = document.getElementById('rocks'),
+        rocksBtn = document.getElementById('rocksToggle'),
+        spruceElement = document.getElementById('spruce'),
+        spruceBtn = document.getElementById('spruceToggle'),
+        sunElement = document.getElementById('sun'),
+        sunBtn = document.getElementById('sunToggle'),
+        birdAudTrk = document.getElementById("birdAudio"),
+        bushesAudTrk = document.getElementById("bushesAudio"),
+        firAudTrk = document.getElementById("firAudio"),
+        grassAudTrk = document.getElementById("grassAudio"),
+        mapleAudTrk = document.getElementById("mapleAudio"),
+        riverAudTrk = document.getElementById("riverAudio"),
+        rocksAudTrk = document.getElementById("rocksAudio"),
+        spruceAudTrk = document.getElementById("spruceAudio"),
+        sunAudTrk = document.getElementById("sunAudio");
 
-  const firElement = document.getElementById('fir');
-  const firBtn = document.getElementById('firToggle');
-
-  const grassElement = document.getElementById('grass');
-  const grassBtn = document.getElementById('grassToggle');
-
-  const mapleElement = document.getElementById('maple');
-  const mapleBtn = document.getElementById('mapleToggle');
-
-  const riverElement = document.getElementById('river');
-  const riverBtn = document.getElementById('riverToggle');
-
-  const rocksElement = document.getElementById('rocks');
-  const rocksBtn = document.getElementById('rocksToggle');
-
-  const spruceElement = document.getElementById('spruce');
-  const spruceBtn = document.getElementById('spruceToggle');
-
-  const sunElement = document.getElementById('sun');
-  const sunBtn = document.getElementById('sunToggle');
-
-  // let elementBird = document.querySelector("#birds");
-
-  // THIRD you write your function
-
-
-  // SECOND you add your event handling here
+// event handling
 
   birdBtn.addEventListener('click', (e) => {
     console.log('you clicked'),
@@ -78,5 +74,77 @@
     console.log('you clicked'),
     sunElement.classList.toggle('hidden');
   });
+
+  birdBtn.addEventListener("click", function(){
+  if(birdAudTrk.paused){
+    birdAudTrk.play();
+  } else {
+    birdAudTrk.pause();
+  }
+});
+
+  bushesBtn.addEventListener("click", function(){
+  if(bushesAudTrk.paused){
+    bushesAudTrk.play();
+  } else {
+    bushesAudTrk.pause();
+  }
+});
+
+  firBtn.addEventListener("click", function(){
+  if(firAudTrk.paused){
+    firAudTrk.play();
+  } else {
+    firAudTrk.pause();
+  }
+});
+
+grassBtn.addEventListener("click", function(){
+  if(grassAudTrk.paused){
+    grassAudTrk.play();
+  } else {
+    grassAudTrk.pause();
+  }
+});
+
+mapleBtn.addEventListener("click", function(){
+  if(mapleAudTrk.paused){
+    mapleAudTrk.play();
+  } else {
+    mapleAudTrk.pause();
+  }
+});
+
+riverBtn.addEventListener("click", function(){
+  if(riverAudTrk.paused){
+    riverAudTrk.play();
+  } else {
+    riverAudTrk.pause();
+  }
+});
+
+rocksBtn.addEventListener("click", function(){
+  if(rocksAudTrk.paused){
+    rocksAudTrk.play();
+  } else {
+    rocksAudTrk.pause();
+  }
+});
+
+spruceBtn.addEventListener("click", function(){
+  if(spruceAudTrk.paused){
+    spruceAudTrk.play();
+  } else {
+    spruceAudTrk.pause();
+  }
+});
+
+sunBtn.addEventListener("click", function(){
+  if(sunAudTrk.paused){
+    sunAudTrk.play();
+  } else {
+    sunAudTrk.pause();
+  }
+});
 
 })();

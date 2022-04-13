@@ -84,43 +84,7 @@ Classes Start
     display: none;
 }
 
-.riverHidden {
-  display: none;
-}
-
-.birdsHidden {
-  display: none;
-}
-
-.firHidden {
-  display: none;
-}
-
-.grassHidden {
-  display: none;
-}
-
-.spruceHidden {
-  display: none;
-}
-
-.bushesHidden {
-  display: none;
-}
-
-.mapleHidden {
-  display: none;
-}
-
-.rocksHidden {
-  display: none;
-}
-
-.sunHidden {
-  display: none;
-}
-
-.example-parent {
+.parentContainer {
   margin-bottom: 0;
 }
 

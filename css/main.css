@@ -44,23 +44,33 @@ Accessibility Ends
 
 /*
 Table of Contents:
-        01. Fonts
-        02. General Styles
-        03. Classes
-        04. IDs
-*/
-
-/*
-Fonts Start
-*/
-
-/*
-Fonts End
+        01. General Styles
+        02. Classes
+        03. IDs
 */
 
 /*
 General Styles Start
 */
+
+header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: color: #67580d;
+}
+
+body {
+  font-size: 16px;
+  cursor: crosshair;
+  background-color: #f7f9f4;
+  font-family: 'Montserrat', sans-serif;
+  color: #67580d;
+  text-align: center;
+}
+
+img {
+  max-height: 50%;
+}
 
 /*
 General Styles End
@@ -70,6 +80,73 @@ General Styles End
 Classes Start
 */
 
+.hidden {
+    display: none;
+}
+
+.riverHidden {
+  display: none;
+}
+
+.birdsHidden {
+  display: none;
+}
+
+.firHidden {
+  display: none;
+}
+
+.grassHidden {
+  display: none;
+}
+
+.spruceHidden {
+  display: none;
+}
+
+.bushesHidden {
+  display: none;
+}
+
+.mapleHidden {
+  display: none;
+}
+
+.rocksHidden {
+  display: none;
+}
+
+.sunHidden {
+  display: none;
+}
+
+.example-parent {
+  margin-bottom: 0;
+}
+
+.campPieces {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.campPieces div {
+  margin-bottom: 0px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.dropzone {
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 285px;
+  max-width: 60%;
+  max-height: 60%;
+}
+
 /*
 Classes End
 */
@@ -77,6 +154,11 @@ Classes End
 /*
 IDs Start
 */
+
+#Layer_1 {
+  height: 50%;
+  width: 50%;
+}
 
 /*
 IDs End
